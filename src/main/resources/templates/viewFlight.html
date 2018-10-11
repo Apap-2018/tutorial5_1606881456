@@ -7,7 +7,7 @@
 </head>
 
 <body>	
-	<nav th:replace="fragments/fragment :: navbar"></nav>
+	<nav th:replace="fragments/fragment :: navbar(title='View Flight')"></nav>
 	
 	<h3> Flight Detail </h3>		
 	<h4 th:text="'Flight Number: '+ ${flightNumber}"></h4>
